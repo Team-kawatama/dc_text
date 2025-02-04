@@ -9,7 +9,7 @@ function text(id,percent,sizetype = false){
     resize()
 }
 function _div(id,percent,margin = 0){
-    texts.push([id,percent,margin])
+    divs.push([id,percent,margin])
     resize()
 }
 function resize(){
